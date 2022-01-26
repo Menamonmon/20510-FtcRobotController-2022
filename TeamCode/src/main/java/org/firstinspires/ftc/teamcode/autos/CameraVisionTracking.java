@@ -8,7 +8,7 @@ import org.openftc.easyopencv.OpenCvCameraRotation;
 import org.openftc.easyopencv.OpenCvInternalCamera;
 
 @Autonomous(name = "Testing Camera Detection", group = "Auto Testing")
-public class TestingCamera extends LinearOpMode {
+public class CameraVisionTracking extends LinearOpMode {
     OpenCvInternalCamera phoneCam;
     String position;
     FrenzyOpenCVDetector detector = new FrenzyOpenCVDetector(telemetry, 1280, 720);
